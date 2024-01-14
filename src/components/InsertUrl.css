@@ -1,0 +1,47 @@
+.box {
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.box-input {
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+    border-color: tan;
+    font-style: oblique;
+}
+
+.box-input::content{
+    font-weight: 900;
+}
+
+.box-btn::after{
+    box-shadow: 20px 20px 20px;
+    border-color: bisque;
+}
+
+.box-btn{
+    border: 0;
+    background-color: burlywood;
+    padding: 10px;
+    height: 40px;
+margin-left: 40%;
+    width: fit-content;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px
+}
+.box-btn:hover{
+    border-radius: 5px;
+    box-shadow: 10px;
+    color: white;
+
+}
